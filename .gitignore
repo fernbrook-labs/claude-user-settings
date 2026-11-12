@@ -1,0 +1,5 @@
+# ~/.claude には、認証情報（.credentials.json）・入力の履歴（history.jsonl）・会話の記録とメモ（projects/）などがあるため、
+# すべて無視して、ユーザー共通の CLAUDE.md だけを追跡する。追跡するファイルを増やすときは「!/ファイル名」を足す（git add -f は使わない）。
+/*
+!/.gitignore
+!/CLAUDE.md
